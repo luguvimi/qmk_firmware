@@ -24,9 +24,7 @@ enum alt_keycodes {
 keymap_config_t keymap_config;
 
 #define KC_CAPW LGUI(LSFT(KC_3))        //Capture whole screen
-#define KC_CPYW LGUI(LSFT(LCTL(KC_3)))  // Copy whole screen
 #define KC_CPOS LGUI(LSFT(KC_4))        // Capture portion of screen
-#define KC_CPYP LGUI(LSFT(LCTL(KC_4)))  // Copy portion of screen
 #define KC_LSC LGUI(LCTL(KC_Q))
 #define KC_SPOT LGUI(KC_SPC) // Delete a word
 
